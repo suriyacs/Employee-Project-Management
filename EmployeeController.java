@@ -15,7 +15,7 @@ import util.StringUtil;
 
 public class EmployeeController extends HttpServlet {
     EmployeeService employeeService = new EmployeeService();
-
+/* No proper coding */
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {  
         int projectId = 0;
 
