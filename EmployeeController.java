@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import databaseexception.DatabaseException;
 import service.EmployeeService;
 import model.Employee;
-import model.Project;
 import util.StringUtil;
 
 public class EmployeeController extends HttpServlet {
