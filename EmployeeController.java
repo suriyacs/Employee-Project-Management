@@ -25,7 +25,7 @@ public class EmployeeController extends HttpServlet {
                   projectId,request.getParameter("employeerole"),request.getParameter("password"))) {
                       request.setAttribute("InsertMessage","Addeded Successfully");
            } else {
-               request.setAttribute("InsertMessage","Can't Add!!Please check the input and try again!!");
+               request.setAttribute("InsertMessage","Can not Add!!Please check the input and try again!!");
            }
         } catch(DatabaseException e) {
              request.setAttribute("InsertMessage",e);
