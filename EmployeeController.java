@@ -32,9 +32,7 @@ public class EmployeeController extends HttpServlet {
         } catch(NumberFormatException e) {
              request.setAttribute("InsertMessage",e);
         }     
-        finally {
-             request.getRequestDispatcher("insertemployee.jsp").forward(request,response);
-        }     
+        
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
